@@ -10,7 +10,7 @@
 	// Send request to API
 	function getPet(){
 		// Put your endpoint here, not mine!!!!
-		var apiEndpoint = 'https://p2nax4po93.execute-api.us-east-1.amazonaws.com/Test/pets';
+		var apiEndpoint = 'YOUR ENDPOINT GOES HERE';
 		var petId = $('#petId').val();
 		var numPets = 3;
 		if (petId>numPets) {
